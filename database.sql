@@ -1,0 +1,11 @@
+CREATE TABLE `trip`.`us_trip_data` 
+(`id` INT(3) NOT NULL AUTO_INCREMENT , 
+`fname` INT(255) NOT NULL , 
+`age` INT(3) NOT NULL , 
+`gender` TEXT NOT NULL , 
+`email` VARCHAR(22) NOT NULL , 
+`phone` VARCHAR(10) NOT NULL , 
+`extrainfo` VARCHAR(255) NOT NULL , 
+`date` DATETIME NOT NULL DEFAULT 
+CURRENT_TIMESTAMP , PRIMARY KEY (`id`)) 
+ENGINE = InnoDB;
